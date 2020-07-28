@@ -17,6 +17,11 @@ class CashRegister
   end
 
   def apply_discount
+    if @employee_discount > 0
+      new_total = @employee_discount / 100 * @total
+      puts "Discount successfully applied!"
+      new_total
+    end
   end
 
 end
