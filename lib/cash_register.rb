@@ -23,8 +23,7 @@ require 'pry'
   def apply_discount
     if @discount > 0
       new_total = @total - @discount / 100.0 * @total
-      puts "Discount successfully applied!"
-      new_total
+      "After the discount, the total comes to $#{new_total.to_i}."
     else
       "There is no discount to apply."
     end
