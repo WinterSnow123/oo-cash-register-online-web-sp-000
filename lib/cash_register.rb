@@ -21,6 +21,8 @@ class CashRegister
       new_total = @employee_discount / 100 * @total
       puts "Discount successfully applied!"
       new_total
+    else
+      puts "There is no discount to apply."
     end
   end
 
