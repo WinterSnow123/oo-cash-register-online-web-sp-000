@@ -22,7 +22,6 @@ require 'pry'
 
   def apply_discount
     if @discount > 0
-      binding.pry
       new_total = @total - @discount / 100.0 * @total
       puts "Discount successfully applied!"
       new_total
