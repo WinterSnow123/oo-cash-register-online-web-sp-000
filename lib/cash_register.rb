@@ -25,7 +25,7 @@ class CashRegister
       puts "Discount successfully applied!"
       new_total
     else
-      return "There is no discount to apply."
+      "There is no discount to apply."
     end
   end
 
