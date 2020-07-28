@@ -34,7 +34,6 @@ require 'pry'
   end
 
   def void_last_transaction
-    binding.pry
     @total = @last_total
   end
 end
