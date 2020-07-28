@@ -17,7 +17,7 @@ require 'pry'
   def add_item(title,price,quantity=1)
   @items.fill(title,@items.size,quantity)
   @last_total = @total
-  @total += price.*quantity
+  @total += price*quantity
   end
 
   def apply_discount
