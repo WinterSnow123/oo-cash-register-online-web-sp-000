@@ -21,6 +21,7 @@ class CashRegister
 
   def apply_discount
     if @discount > 0
+      binding.pry
       new_total = @discount / 100 * @total
       puts "Discount successfully applied!"
       new_total
